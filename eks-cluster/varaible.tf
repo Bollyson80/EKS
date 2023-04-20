@@ -1,5 +1,5 @@
 variable "cluster-name" {
-  default = "remzy"
+  default = "bollyson"
   type    = string
 }
 
@@ -14,22 +14,22 @@ variable "AWS_REGION" {
 }
 
 variable "keypair-name" {
-  default = "class"
+  default = "MyDevopsClass"
   type    = string
 }
 
 variable "vpc_id" {
   type = string
-  description = "vpc-06c64054c3cd567a8"
-  default = "vpc-06c64054c3cd567a8"
+  description = "vpc-00d2e30903e2bb2bd"
+  default = "vpc-00d2e30903e2bb2bd"
 }
 
 variable "subnet_id" {
   description = "The ID of the subnets to use"
   type        = list(string)
   default     = [
-    "subnet-0ab3ce092683ac49d",
-    "subnet-065efd20a7d1a2878"
+    "subnet-04b611157ee1bd45b",
+    "subnet-0b634b30cd62aebbd"
   ]
 }
 

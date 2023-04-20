@@ -1,5 +1,5 @@
 resource "aws_iam_role" "eks_cluster" {
-  name = "remzy"
+  name = "bollyson"
 
   assume_role_policy = <<POLICY
 {
@@ -28,7 +28,7 @@ resource "aws_iam_role_policy_attachment" "AmazonEKSServicePolicy" {
 }
 
 resource "aws_iam_role" "eks_nodes" {
-  name = "remzy-nodes"
+  name = "bollyson-nodes"
 
   assume_role_policy = <<POLICY
 {
